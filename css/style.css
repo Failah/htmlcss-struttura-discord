@@ -100,3 +100,18 @@ header {
     background-color: #23272a;
     height: 500px;
 }
+
+.footer-up {
+    justify-content: space-around;
+    padding: 80px 300px;
+}
+
+hr {
+    width: 630px;
+    margin: 0 auto;
+}
+
+.footer-down {
+    justify-content: space-between;
+    padding: 80px 300px;
+}
