@@ -13,6 +13,10 @@
     display: flex;
 }
 
+.row {
+    flex-direction: row;
+}
+
 .column {
     flex-direction: column;
 }
@@ -23,6 +27,37 @@
 header {
     background-color: #3161e0;
     height: 500px;
+    justify-content: flex-start;
+}
+
+.top-navbar {
+    justify-content: space-around;
+    padding: 40px 0px 0px 0px;
+}
+
+.middle-navbar {
+    justify-content: space-around;
+}
+
+.center-header {
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#banner-text {
+    max-width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner-buttons {
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.button {
+    padding: 10px 30px;
 }
 
 .white-section {
