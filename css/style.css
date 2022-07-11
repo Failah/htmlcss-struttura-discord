@@ -1,0 +1,41 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* utilities */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+/* specifics */
+
+header {
+    background-color: #3161e0;
+    height: 500px;
+}
+
+.white-section {
+    background-color: white;
+    height: 500px;
+}
+
+.grey-section {
+    background-color: #ccc;
+    height: 500px;
+}
+
+.footer-section {
+    background-color: #23272a;
+    height: 500px;
+}
