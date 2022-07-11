@@ -63,11 +63,37 @@ header {
 .white-section {
     background-color: white;
     height: 500px;
+    padding: 80px 300px;
+}
+
+.image1 {
+    width: 500px;
+    background-color: #444;
+    margin-right: 100px;
+}
+
+.white-text {
+    justify-content: center;
 }
 
 .grey-section {
     background-color: #ccc;
     height: 500px;
+    padding: 80px 300px;
+}
+
+.image2 {
+    width: 500px;
+    background-color: #444;
+    margin-left: 100px;
+}
+
+.grey-section2 {
+    text-align: center;
+    background-color: #ccc;
+    height: 500px;
+    padding: 80px 300px;
+    justify-content: space-around;
 }
 
 .footer-section {
